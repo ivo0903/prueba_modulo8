@@ -1,0 +1,52 @@
+//listado de usuarios
+
+"firstName":"Mateo",
+    "lastName":"Díaz",
+    "email":"mateo.diaz@correo.com",
+    "password":"H31a7u$g",
+    "admin":false
+id:67e35b89-bec8-4ac6-a402-79d26ff181fa
+
+
+"firstName":"Santiago",
+    "lastName":"Mejías",
+    "email":"santiago.mejias@correo.com",
+    "password":"W31e7u?g",
+    "admin":false
+id:84dc333d-5e86-4c4b-8e2c-d720cf22fc63
+
+
+"firstName":"Lucas",
+    "lastName":"Rojas",
+    "email":"lucas.rojas@correo.com",
+    "password":"TRsde9u?g",
+    "admin":false
+id:9af0440e-8ad0-465b-90eb-1a4af1fb7404
+
+"firstName":"Facundo",
+    "lastName":"Fernández",
+    "email":"facundo.fernandez@correo.com",
+    "password":"bf86DE#s",
+    "admin":false
+id:dc4aa19a-8555-45ec-b491-47a0d0faeb50
+
+"firstName":"Mariana",
+    "lastName":"Fernández",
+    "email":"mariana.fernandez@correo.com",
+    "password":"j8k04FE%i",
+    "admin":false
+id:6a4c3832-bce5-4426-8a2c-22e18c378420
+
+"firstName":"Patana",
+    "lastName":"Triviño",
+    "email":"patana.trivino@correo.com",
+    "password":"L0is$%Ts37",
+    "admin":true
+id:f37150eb-f9cb-4c0f-90dc-231336a5de43
+
+"firstName":"Matilde",
+    "lastName":"Fernández",
+    "email":"mati.fernandez@correo.com",
+    "password":"N/&Ter349",
+    "admin":"false"
+id:63cfbbb3-6503-48de-856f-07639163b454

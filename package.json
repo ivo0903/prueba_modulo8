@@ -1,0 +1,34 @@
+{
+  "name": "prueba_modulo7",
+  "version": "1.0.0",
+  "description": "prueba del modulo7 backen",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "mocha ",
+    "dev": "nodemon ./src/index.js"
+  },
+  "keywords": [
+    "backend",
+    "sequelize",
+    "express"
+  ],
+  "author": "patricia fuica diaz",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "nodemailer": "^6.9.16",
+    "pg": "^8.13.1",
+    "sequelize": "^6.37.5"
+  },
+  "devDependencies": {
+    "chai": "^5.1.2",
+    "dotenv": "^16.4.7",
+    "mocha": "^11.0.1",
+    "nodemon": "^3.1.9",
+    "supertest": "^7.0.0"
+  }
+}
