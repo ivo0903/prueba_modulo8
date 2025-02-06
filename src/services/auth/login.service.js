@@ -26,7 +26,7 @@ export const loginService = async({ email, password }) => {
         
         const privateUser = normalizeUserPrivateData(user);
         const token = jwt.sign( 
-            { id: user.id, email: user.email}, 
+            { id: user.id, email: user.email, admin:user.admin}, 
             secretKey,
             { expiresIn: '1h' } 
         );
