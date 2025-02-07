@@ -69,9 +69,15 @@ export const getUserById = async(req, res, next) => {
 export const updateUserById = async (req, res, next) => {
     try {
         const { id } = req.params;
+        // Verificar si el usuario autenticado está intentando actualizar sus propios datos
+        if (req.user.id !== id) {
+            return res.status(401).json({error: 'No puedes modificar los datos de otro usuario,que no seas tú'})
+        }
+        
+        
         const updateData = req.body;
 
-        
+
         const allowedFields = ["firstName", "lastName", "email"];
         
         

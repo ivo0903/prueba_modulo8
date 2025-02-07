@@ -30,8 +30,8 @@ router.delete('/:id',authMiddleware,verifyAdmin,permaDeletUser);
 
 router.put('/:id',authMiddleware, updateUserById);
 
-router.delete('/:id/',deletUserById);
-router.patch('/:id',restoredUser);
+router.delete('/:id/',authMiddleware,deletUserById);
+router.patch('/:id',authMiddleware,restoredUser);
 
 router.get('/:id',authMiddleware, getUserById)
 
